@@ -1,0 +1,13 @@
+[08-Oct-2015 10:52:41 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/markspen/public_html/wp-content/themes/bootstraptheme/footer.php on line 14
+[08-Oct-2015 10:52:41 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/markspen/public_html/wp-content/themes/bootstraptheme/footer.php on line 14
+[08-Oct-2015 10:53:36 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/markspen/public_html/wp-content/themes/bootstraptheme/footer.php on line 14
+[08-Oct-2015 10:53:36 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/markspen/public_html/wp-content/themes/bootstraptheme/footer.php on line 14
+[08-Oct-2015 16:28:00 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/markspen/public_html/wp-content/themes/bootstraptheme/footer.php on line 14
+[08-Oct-2015 16:28:01 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/markspen/public_html/wp-content/themes/bootstraptheme/footer.php on line 14
+[08-Oct-2015 16:28:06 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/markspen/public_html/wp-content/themes/bootstraptheme/footer.php on line 14
+[08-Oct-2015 16:28:06 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/markspen/public_html/wp-content/themes/bootstraptheme/footer.php on line 14
+[08-Oct-2015 16:30:14 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/markspen/public_html/wp-content/themes/bootstraptheme/footer.php on line 11
+[08-Oct-2015 16:30:14 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/markspen/public_html/wp-content/themes/bootstraptheme/footer.php on line 11
+[08-Oct-2015 17:15:06 UTC] PHP Parse error:  syntax error, unexpected 'bloginfo' (T_STRING) in /home/markspen/public_html/wp-content/themes/bootstraptheme/header.php on line 6
+[13-Oct-2015 04:42:53 UTC] PHP Fatal error:  Cannot redeclare bavotasan_styles() (previously declared in /home/markspen/public_html/wp-content/themes/ward-child/functions.php:84) in /home/markspen/public_html/wp-content/themes/ward/functions.php on line 90
+[13-Oct-2015 04:43:01 UTC] PHP Fatal error:  Cannot redeclare bavotasan_styles() (previously declared in /home/markspen/public_html/wp-content/themes/ward-child/functions.php:84) in /home/markspen/public_html/wp-content/themes/ward/functions.php on line 90
