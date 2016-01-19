@@ -1,0 +1,451 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: url(img/space.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*Navbar color modifications*/
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar{
+  background-color: #000000;
+  border-color: #2a5176;
+}
+.navbar .navbar-brand {
+  color: #2a5176;
+}
+.navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+  color: #ffffff;
+  
+}
+.navbar .navbar-text {
+  color: #2a5176;
+}
+.navbar .navbar-nav > li > a {
+  color: #2a5176;
+}
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color:#2a5176;
+}
+.navbar .navbar-nav > li > .dropdown-menu {
+  background-color: #000000;
+}
+.navbar .navbar-nav > li > .dropdown-menu > li > a {
+  color: #2a5176;
+}
+.navbar .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ffffff;
+  background-color: #2a5176;
+}
+.navbar .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #000000;
+}
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #2a5176;
+}
+.navbar .navbar-nav > .open > a, .navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #2a5176;
+}
+.navbar .navbar-toggle {
+  border-color: #2a5176;
+}
+.navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
+  background-color: #2a5176;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: #2a5176;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #2a5176;
+}
+.navbar .navbar-link {
+  color: #A6C7F3;
+}
+.navbar .navbar-link:hover {
+  color: #ffffff;
+}
+
+/*for navbar transitions*/
+.navbar{
+   transition-timing-function:ease-in-out;
+   transition-duration: .5s;
+ }
+ .navbar:hover{
+   transition-timing-function:ease-out;
+   transition-duration: .5s;
+   box-shadow:0px 0px 10px 3px white;
+ }
+
+/*Dropdown for Nav*/
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+/*Nav tabs*/
+.tab-pane{
+    padding-top:20px;
+}
+
+/* Site Logo */
+.jumbotron{
+  height:150px;
+  background-image:url(img/logo.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
+  background-color:black;	
+  opacity:.9;
+}
+
+/*Main wrapper for index content*/
+
+#bodycont{
+	background-color:black;
+	opacity:.9;
+    transition-timing-function:ease-in-out;
+    transition-duration:.5s;
+    box-shadow:0px 0px 15px 2px white;
+}
+#bodycont:hover{
+    opacity:1;
+}
+
+#bodycont h1,h2{
+  text-shadow: 1px 1px 5px #7DA2D5;	
+}
+/*Maryname accordion*/
+.maryname{
+  height:8%;
+  width:100%; 
+  
+}
+.panel-body{
+  padding-top:0px;
+  padding-bottom:0px;
+}
+.panel-group{
+  transition-timing-function:ease-in-out;
+  transition-duration:.5s;
+  margin:0px;
+  padding:0px;
+}
+.panel-group:hover{
+  box-shadow:0px 0px 10px 1px white;
+}
+
+/*Adds background color and style for columns*/
+.col-lg-12{
+	background-color:black;
+	color:white;
+	margin-bottom:10px;
+    border-color:#8397B4;
+    border-bottom-style:groove;
+}
+
+.col-md-4{
+	background-color:black;
+	color:white;
+	text-align:center;
+    min-height:100%;
+}
+
+.col-xs-12{
+	background-color:black;
+	color:#669096;
+	margin-top:10px;
+	padding-right:15px;
+	padding-left:15px;
+}
+
+/*
+ * Main column and sidebar layout for Blog Template
+ */
+ .indeximg{
+   margin:10px;
+   width:150px;
+   height:150px;
+ }
+
+.blog-main {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+  text-align:center;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-title{
+  background-color:black;
+  color:white;
+  opacity:.95;
+  margin:0px;
+  padding:3px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+#blogbody{
+  background-color:white;
+  opacity:.9;
+  border-radius:10px;
+  box-shadow:0px 0px 15px 6px #3A577A;
+  padding:50px;
+}
+
+/*Spinning Glyphicons*/
+.gly-spin {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 400px;
+  margin-bottom: 10px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: black;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 400px;
+}
+.carousel-caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  background: #333333;
+  background: rgba(0, 0, 0, 0.75);
+  font-size:12px;
+}
+
+.carousel-indicators {
+  position:absolute;
+  top: 15px;
+  margin-left:-20px;
+  list-style: none;
+  width:200px;
+  height:100px;
+}
+
+.carousel-indicators li {
+  display: block;
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  text-indent: -999px;
+  background-color: #ccc;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+}
+
+.carousel-indicators .active {
+  background-color: #fff;
+}
+
+.carousel-control .glyphicon-circle-arrow-left,
+.carousel-control .glyphicon-circle-arrow-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  margin-top: -10px;
+  font-size:1.5em;
+}
+.carousel-control .glyphicon-circle-arrow-left {
+  left: 50%;
+  margin-left: -10px;
+}
+.carousel-control .glyphicon-circle-arrow-right {
+  right: 50%;
+  margin-right: -10px;
+}
+/*Shop Modifications*/
+.caption p{
+  text-align:left;
+}
+.caption h3{
+  background-image: linear-gradient(0deg, #343434, black);
+  color:white;
+  margin:5px;
+  font-size:18px;
+  border-radius:5px;
+  height:60px;
+  padding:5px;
+}
+
+/*Footer customize*/
+
+footer{
+  text-align:center;    
+}
+
+
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  .navbar .navbar-nav .open .dropdown-menu > li > a {
+    color: #2a5176;
+  }
+  .navbar .navbar-nav .open .dropdown-menu > li > a:hover, .navbar .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar .navbar-nav .open .dropdown-menu > .active > a, .navbar .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #2a5176;
+  }
+  #myCarousel {
+        display:none !important;
+   }
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-right: 1px solid #d5d5d5;
+    border-left: 1px solid #fff;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+    border-radius: 0 5px 5px 0;
+  }
+ 
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+}
