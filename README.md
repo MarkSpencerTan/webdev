@@ -1,1 +1,1 @@
-# Web-Development
+# Web-Development Projects for CECS 200 - Intermediate Web Development with Wordpress
